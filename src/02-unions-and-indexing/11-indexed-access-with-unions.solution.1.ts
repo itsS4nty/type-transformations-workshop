@@ -10,11 +10,11 @@ export const programModeEnumMap = {
 } as const;
 
 export type IndividualProgram = typeof programModeEnumMap[
-  | "ONE_ON_ONE"
-  | "SELF_DIRECTED"
-  | "PLANNED_ONE_ON_ONE"
-  | "PLANNED_SELF_DIRECTED"];
-
+    | "ONE_ON_ONE"
+    | "SELF_DIRECTED"
+    | "PLANNED_ONE_ON_ONE"
+    | "PLANNED_SELF_DIRECTED"];
+  
 type tests = [
   Expect<
     Equal<
